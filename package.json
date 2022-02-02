@@ -1,8 +1,27 @@
 {
   "name": "stackoverflowclone",
   "version": "1.0.0",
+  "description": "Stack over flow Clone Backend Service",
   "main": "app.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "redis": "^4.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
+    "dev": "nodemon app",
+    "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,15 +34,5 @@
   "bugs": {
     "url": "https://github.com/Codehouze/stackoverflowclone/issues"
   },
-  "homepage": "https://github.com/Codehouze/stackoverflowclone#readme",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.13",
-    "nodemon": "^2.0.15"
-  },
-  "devDependencies": {},
-  "description": ""
+  "homepage": "https://github.com/Codehouze/stackoverflowclone#readme"
 }

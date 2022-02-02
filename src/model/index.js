@@ -10,4 +10,5 @@ db.user = require("./userModel")(mongoose);
 db.question=require("./questionModel")(mongoose);
 db.comment=require("./commentModel")(mongoose);
 
+
 module.exports = db;

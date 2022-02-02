@@ -1,7 +1,7 @@
 module.exports = mongoose => {
     let schema = mongoose.Schema(
         {
-          DisplayName:String,
+          displayName:String,
           email: String,
           password:String,
         },
