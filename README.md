@@ -53,7 +53,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 Open `.env_sample` then edit it with your settings. You will need:
 
 - NODE_ENV
-- URI
+- DB_URI
 - PORT
 - SECRET_KEY
 
