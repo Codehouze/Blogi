@@ -1,10 +1,10 @@
 # Maxwell_Emmanuel
-A Login Service with Nodejs and Mongodb
+A Login Service with Nodejs and Mongodb-memory-server
 
 ---
 ## Requirements
 
-For development, you will only need Mongodb,Node.js and a node global package, Yarn, installed in your environement.
+For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
 
 ### Node
 - #### Node installation on Windows
@@ -48,14 +48,6 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ cd Maxwell_Emmanuel
     $ npm install
 
-## Configure app
-
-Open `.env_sample` then edit it with your settings. You will need:
-
-- NODE_ENV
-- DB_URI
-- PORT
-- SECRET_KEY
 
 ## Running the project
 
