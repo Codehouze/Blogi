@@ -3,7 +3,7 @@ const logger = require("../../logger/index");
 require("dotenv").config();
 
 const connectToDb = () => {
-  mongoose.connect(process.env.URI, (err) => {
+  mongoose.connect(process.env.DB_URI, (err) => {
     if (err)  logger.error(
       `Message:Database connection error,${err.message}`
     );
