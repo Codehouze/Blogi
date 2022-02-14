@@ -8,6 +8,7 @@ require("dotenv").config();
 
 if(process.env.NODE_ENV==='development' || process.env.NODE_ENV==='production'){
 connectToDb();
+
 }
 console.log(process.env.NODE_ENV);
 // parse requests of content-type - application/json
