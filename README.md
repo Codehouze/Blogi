@@ -48,14 +48,6 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ cd Maxwell_Emmanuel
     $ npm install
 
-## Configure app
-
-Open `.env_sample` then edit it with your settings. You will need:
-
-- NODE_ENV
-- DB_URI
-- PORT
-- SECRET_KEY
 
 ## Running the project
 
