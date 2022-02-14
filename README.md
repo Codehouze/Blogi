@@ -1,5 +1,5 @@
 # Maxwell_Emmanuel
-A Login Service with nodejs
+A Login Service with Nodejs and Mongodb
 
 ---
 ## Requirements
@@ -25,10 +25,10 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 If the installation was successful, you should be able to run the following command.
 
     $ node --version
-    v8.11.3
+    v14.17.6
 
     $ npm --version
-    6.1.0
+    6.14.15
 
 If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
 
@@ -44,22 +44,21 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
-    $ yarn install
+    $ git clone https://github.com/Codehouze/Maxwell_Emmanuel
+    $ cd Maxwell_Emmanuel
+    $ npm install
 
 ## Configure app
 
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
+Open `.env_sample` then edit it with your settings. You will need:
 
-- A setting;
-- Another setting;
-- One more setting;
+- NODE_ENV
+- URI
+- PORT
+- SECRET_KEY
 
 ## Running the project
 
-    $ yarn start
+    $ npm start
 
-## Simple build for production
 
-    $ yarn build
