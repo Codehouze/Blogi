@@ -1,0 +1,13 @@
+{"level":"info","message":"Database connection successful"}
+{"level":"info","message":"Database connection successful"}
+{"level":"error","message":"Method:POST Endpoint:/api/users/ message:data is not defined, stack trace:ReferenceError: data is not defined\n    at exports.create (/Users/emmanuelmaxwell/Documents/projects/stackoverflowclone/src/controller/userCtrl.js:13:41)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"error","message":"Method:POST Endpoint:/api/users/ message:data is not defined, stack trace:ReferenceError: data is not defined\n    at exports.create (/Users/emmanuelmaxwell/Documents/projects/stackoverflowclone/src/controller/userCtrl.js:13:41)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"}
+{"level":"info","message":"Database connection successful"}
+{"level":"info","message":"Database connection successful"}
+{"level":"info","message":"Database connection successful"}
+{"level":"info","message":"Database connection successful"}
+{"level":"info","message":"Database connection successful"}
+{"level":"info","message":"Database connection successful"}
+{"level":"info","message":"Database connection successful"}
+{"level":"info","message":"Database connection successful"}
+{"level":"info","message":"Database connection successful"}
