@@ -4,7 +4,7 @@ A Login Service with Nodejs and Mongodb
 ---
 ## Requirements
 
-For development, you will only need Node.js and a node global package, Yarn, installed in your environement.
+For development, you will only need Mongodb,Node.js and a node global package, Yarn, installed in your environement.
 
 ### Node
 - #### Node installation on Windows
