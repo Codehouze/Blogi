@@ -48,7 +48,10 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ cd Maxwell_Emmanuel
     $ npm install
 
-
+## Configuration
+  
+  - SECRET_KEY
+  
 ## Running the project
 
     $ npm start
