@@ -51,6 +51,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Configuration
   
   - SECRET_KEY
+  - NODE_ENV
   
 ## Running the project
 
