@@ -4,6 +4,7 @@ const cors = require("cors");
 const router = require("./src/routes/userRoutes");
 const bodyParser = require("body-parser");
 const connectToDb= require('./src/config/dbConfig')
+const port = process.env.PORT || 6000
 require("dotenv").config();
 
 if(process.env.NODE_ENV==='development' || process.env.NODE_ENV==='production'){
@@ -27,9 +28,9 @@ app.get("/", (req, res) => {
   res.send("Api Is working");
 });
 
-app.listen(process.env.PORT || 6000, function () {
+app.listen(port, function () {
   console.log(
-    `============= Our server has been started on ${process.env.PORT}====================`
+    `============= Our server has been started on ${port}====================`
   );
 });
 
