@@ -50,8 +50,8 @@ class UserService {
   }
 
   async getAllUsers() {
-    const users = await User.find({}, { password: 0 });
-    return users;
+    return User.find({}, { password: 0 });
+
   }
 
  
