@@ -44,8 +44,8 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install
 
-    $ git clone https://github.com/Codehouze/Maxwell_Emmanuel
-    $ cd Maxwell_Emmanuel
+    $ git clone https://github.com/Codehouze/Blogi
+    $ cd Blogi
     $ npm install
 
 ## Configuration
